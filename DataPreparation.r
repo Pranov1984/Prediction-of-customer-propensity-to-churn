@@ -1,4 +1,4 @@
-setwd("C:\\Users\\user\\Desktop\\Jigsaw\\Data Science with R\\Capstone & Project Wrap up")
+setwd("")
 mydata=read.csv("Telecom_Sampled.csv")
 dim(mydata)
 mydata$churn=as.factor(mydata$churn)
